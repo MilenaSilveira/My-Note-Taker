@@ -1,9 +1,6 @@
 const express = require('express');
-
 const homeRoutes = require('./routes/homeroutes');
 const apiRoutes = require('./routes/apiroutes')
-//Helper method.
-
 
 const PORT = 3001;
 const app = express();
@@ -14,9 +11,6 @@ app.use(express.static('public'));
 app.use(apiRoutes)
 app.use(homeRoutes)
 
-
-
-//Localhost
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT}`)
 );

@@ -1,4 +1,4 @@
-# My-Note-Taker
+# My-Note-Taker 👋
 
 ## User Story
 
